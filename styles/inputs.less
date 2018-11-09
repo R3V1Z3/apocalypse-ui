@@ -1,0 +1,101 @@
+input {
+  background: red;
+}
+
+atom-workspace .settings-view select.form-control {
+    filter: invert();
+    box-shadow:
+      0 0 4px rgba(0,0,0,0.25),
+      0 -1px 1px 1px @input-background-color,
+      0 0px 1px 1px black;
+    color: @text-color-highlight;
+    text-shadow: none;
+    border: 1px solid darken(@input-background-color,20%);//@input-border-color;
+    background-color: darken(@input-background-color,15%);
+}
+//
+// Checkbox
+// -------------------------
+
+.input-checkbox {
+  &:active {
+    background-color: @accent-color;
+  }
+  &:before,
+  &:after {
+    background-color: @accent-text-color;
+  }
+  &:checked {
+    background-color: @accent-color;
+  }
+
+  &:indeterminate {
+    background-color: @accent-color;
+  }
+}
+
+
+//
+// Radio
+// -------------------------
+
+.input-radio {
+  &:before {
+    background-color: @accent-text-color;
+  }
+  &:active {
+    background-color: @accent-color;
+  }
+  &:checked {
+    background-color: @accent-color;
+  }
+}
+
+
+//
+// Range (Slider)
+// -------------------------
+
+.input-range {
+  &::-webkit-slider-thumb {
+    background-color: @accent-color;
+  }
+}
+
+
+//
+// Toggle
+// -------------------------
+
+.input-toggle {
+  &:checked {
+    background-color: @accent-color;
+  }
+  &:before {
+    background-color: @accent-text-color;
+  }
+}
+
+
+
+// States -------------------------
+
+.input-text,
+.input-search,
+.input-number,
+.input-textarea,
+.input-select,
+.input-color {
+  &:focus {
+    .focus();
+  }
+}
+
+.input-text,
+.input-search,
+.input-number,
+.input-textarea {
+  &:invalid {
+    .invalid();
+  }
+}
