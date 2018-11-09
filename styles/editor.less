@@ -1,5 +1,5 @@
 atom-text-editor:not([mini]) {
-  text-shadow: none;
+  text-shadow: 0 0 1px currentColor, 0 0 4px currentColor;
   margin: 20px;
   padding: 25px;
   border-radius: 7px;
@@ -17,7 +17,7 @@ atom-text-editor:not([mini]) {
 
 atom-text-editor:not([mini]) div:first-child,
 atom-text-editor-minimap {
-  filter: saturate(90%) blur(0.75px);
+  filter: saturate(90%);//blur(0.75px);
 }
 
 atom-text-editor:not([mini])::after {

@@ -49,8 +49,12 @@ atom-panel-container.left .panes::before {
   font-weight: 900;
 }
 
+.tree-view * {
+  text-shadow: 0 0 1px currentColor, 0 0 4px currentColor;
+}
+
 .tree-view {
-  filter: saturate(50%) blur(0.8px);
+  filter: saturate(50%);// blur(0.8px);
   font-size: @ui-size;
   box-shadow: inset 0 0 20px rgba(0,0,0,0.25);
   background:
