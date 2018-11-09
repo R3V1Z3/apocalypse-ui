@@ -15,7 +15,13 @@ atom-text-editor:not([mini]) {
 
 }
 
+atom-text-editor:not([mini]) div:first-child,
+atom-text-editor-minimap {
+  filter: saturate(90%) blur(0.75px);
+}
+
 atom-text-editor:not([mini])::after {
+  filter: none;
   content: "";
   position: absolute;
   pointer-events: none;
@@ -30,7 +36,7 @@ atom-text-editor:not([mini])::after {
       lighten(@ui-syntax-color,10%) 20%,
       @ui-syntax-color
     ),
-    url(https://mbtskoudsalg.com/images/window-crack-png-6.png);
+    url(atom://apocalypse-ui/assets/LKBP6t6.png);
   background-blend-mode: soft-light;
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,7 +47,7 @@ atom-text-editor:not([mini])::after {
 }
 
 atom-text-editor-minimap {
-  margin-right: 20px;
+  margin-right: 22px;
 }
 
 // special adjustments for text editor in GitHub pane
