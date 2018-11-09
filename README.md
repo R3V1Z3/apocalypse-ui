@@ -2,13 +2,13 @@
 
 While madness overtook the world, ATOM sat idly awaiting the opportunity to again serve its human user's needs. That opportunity never came.
 
-Many angry organic forms found their way to the lonely computer only to express the insanity of their disease. Some thrashed body parts at it. Others decorated the previously pristine terminal with lower lifeforms. One managed to crack its main display.
+Many angry organic forms found their way to the lonely computer only to express the insanity of their disease. Some thrashed body parts at it. Others decorated it with lower lifeforms. One managed to crack its main display.
 
 Once a pristine terminal, ATOM now sits adorned with unrecognizable shreds of former life awaiting the impending darkness.
 
 ## Enter the Apocalypse
 
-Join ATOM at the end of everything. Apocalypse UI lets you code like all life once depended on it. It's too late now, but you can still work on algorithms that could have saved humanity.
+Join ATOM at the end of everything. Apocalypse UI lets you code like all life once depended on it. It's too late now, but you can still work on algorithms that maybe could have saved humanity.
 
 > CSS with [MsMeeves Ice Cream Candy](https://atom.io/themes/msmeeves-ice-cream-candy-syntax) theme.
 ![CSS with MsMeeves Ice Cream Candy](screenshots/apocalypse-ui-msmeeves.png)
