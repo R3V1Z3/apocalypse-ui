@@ -7,6 +7,9 @@ Feel ATOM's despair.
 > CSS with [MsMeeves Ice Cream Candy](https://atom.io/themes/msmeeves-ice-cream-candy-syntax) theme.
 ![CSS with MsMeeves Ice Cream Candy](screenshots/apocalypse-ui-msmeeves.png)
 
+> CoffeeScript with [Alpenglow](https://atom.io/themes/alpenglow-atom-syntax) theme.
+![CoffeeScript with Alpenglow](screenshots/apocalypse-ui-coffee-alpenglow.png)
+
 > Font used in screenshots is [Fira Code iScript](https://github.com/kencrocken/FiraCodeiScript)
 
 ## Credits
