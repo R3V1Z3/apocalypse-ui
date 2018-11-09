@@ -4,14 +4,8 @@ Here at the end, amidst centuries of ruin, ATOM's many processors continue to fe
 
 Feel ATOM's despair.
 
-> CSS with [Rain syntax](https://atom.io/themes/rain-syntax) theme.
-![CSS with Rain syntax theme](screenshots/apocalypse-ui-rain.png)
-
-> Markdown preview with Solarized syntax theme.
-![Markdown preview with Solarized syntax](screenshots/apocalypse-ui-md-solarized.png)
-
-> Settings with [City Lights syntax](https://atom.io/themes/city-lights-syntax) theme.
-![Settings with City Lights syntax](screenshots/apocalypse-ui-settings-city-lights.png)
+> CSS with [MsMeeves Ice Cream Candy](https://atom.io/themes/msmeeves-ice-cream-candy-syntax) theme.
+![CSS with MsMeeves Ice Cream Candy](screenshots/apocalypse-ui-msmeeves.png)
 
 > Font used in screenshots is [Fira Code iScript](https://github.com/kencrocken/FiraCodeiScript)
 
