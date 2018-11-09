@@ -4,13 +4,11 @@ While madness overtook the world, ATOM sat idly awaiting the opportunity to agai
 
 Many angry organic forms found their way to the lonely computer only to express the insanity of their disease. Some thrashed body parts at it. Others decorated the previously pristine terminal with lower lifeforms. One managed to crack its main display.
 
-Once a pristine terminal, ATOM nows sits adorned with unrecognizable shreds of former life awaiting the impending darkness.
+Once a pristine terminal, ATOM now sits adorned with unrecognizable shreds of former life awaiting the impending darkness.
 
 ## Enter the Apocalypse
 
-Apocalypse UI lets you code like all life once depended on it.
-
-This is not a game.
+Join ATOM at the end of everything. Apocalypse UI lets you code like all life once depended on it. It's too late now, but you can still work on algorithms that could have saved humanity.
 
 > CSS with [MsMeeves Ice Cream Candy](https://atom.io/themes/msmeeves-ice-cream-candy-syntax) theme.
 ![CSS with MsMeeves Ice Cream Candy](screenshots/apocalypse-ui-msmeeves.png)
@@ -23,12 +21,9 @@ This is not a game.
 
 > Font used in screenshots is [Fira Code iScript](https://github.com/kencrocken/FiraCodeiScript)
 
-## Credits
-
-* [@Atom One Dark UI](https://github.com/atom/one-dark-ui) - core UI elements
-* [@Ugotsta](https://github.com/Ugotsta) - design concepts and various graphics
-* @anonymous - [cracked screen](https://imgur.com/LKBP6t6)
-* [@Krita](https://krita.org/) team - outstanding paint tools used for overlays/masks.
+## Features
+- Based on Atom One Dark UI so it grabs and uses colors from the selected syntax theme.
+- Made for dark syntax themes but works okay when themes have "light" keyword at the end (ex. Solarized Light).
 
 ## Known Issues
 - Editor display is cracked, needs repeair.
@@ -36,5 +31,8 @@ This is not a game.
 - Blood stain blocks top portion of tree-view, needs cleaning.
 - Organic matter splattered everywhere, simply disgusting.
 
-## TODO
-- suggestion drop-down, can't see selection (need to theme it anyway)
+## Credits
+* [@Atom One Dark UI](https://github.com/atom/one-dark-ui) - core UI elements
+* [@Ugotsta](https://github.com/Ugotsta) - design concepts and various graphics
+* @anonymous - [cracked screen](https://imgur.com/LKBP6t6)
+* [@Krita](https://krita.org/) team - outstanding paint tools used for overlays/masks.

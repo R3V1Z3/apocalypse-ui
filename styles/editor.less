@@ -17,7 +17,17 @@ atom-text-editor:not([mini]) {
 
 atom-text-editor:not([mini]) div:first-child,
 atom-text-editor-minimap {
-  filter: saturate(90%);//blur(0.75px);
+  filter: saturate(90%);
+}
+
+atom-workspace[class*="-light"]
+atom-text-editor:not([mini])::after {
+  background:
+    radial-gradient(
+      darken(@ui-syntax-color, 100%),
+      darken(@ui-syntax-color, 90%)
+    ),
+    url(atom://apocalypse-ui/assets/LKBP6t6.png);
 }
 
 atom-text-editor:not([mini])::after {
@@ -48,6 +58,7 @@ atom-text-editor:not([mini])::after {
 
 atom-text-editor-minimap {
   margin-right: 22px;
+  filter: blur(1px);
 }
 
 // special adjustments for text editor in GitHub pane
