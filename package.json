@@ -4,9 +4,12 @@
   "version": "0.3.0",
   "description": "Join Atom at the end of everything.",
   "keywords": [
-    "light",
+    "dark",
     "adaptive",
-    "ui"
+    "ui",
+    "eerie",
+    "textures",
+    "realistic"
   ],
   "license": "MIT",
   "repository": "https://github.com/Ugotsta/apocalypse-ui",
