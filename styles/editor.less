@@ -8,26 +8,29 @@ atom-text-editor:not([mini]) {
     inset 0 0 10px 10px rgba(255,255,255,0.125),
     inset 0 0 7px 15px rgba(255,255,255,0.125),
     inset 0 0 0px 20px #555;
+  background:
+    radial-gradient(
+      lighten(@ui-syntax-color,20%),
+      lighten(@ui-syntax-color,10%)
+    );
 
   .gutter {
     background: transparent;
   }
+}
 
+atom-workspace[class*="-light"]
+atom-text-editor:not([mini]) {
+  background:
+    radial-gradient(
+      lighten(@ui-syntax-color, 10%),
+      lighten(@ui-syntax-color, 20%)
+    );
 }
 
 atom-text-editor:not([mini]) div:first-child,
 atom-text-editor-minimap {
   filter: saturate(90%);
-}
-
-atom-workspace[class*="-light"]
-atom-text-editor:not([mini])::after {
-  background:
-    radial-gradient(
-      darken(@ui-syntax-color, 100%),
-      darken(@ui-syntax-color, 90%)
-    ),
-    url(atom://apocalypse-ui/assets/LKBP6t6.png);
 }
 
 atom-text-editor:not([mini])::after {
@@ -41,16 +44,9 @@ atom-text-editor:not([mini])::after {
   bottom: 0;
   margin: 20px;
   background:
-    radial-gradient(
-      lighten(@ui-syntax-color,15%) 5%,
-      lighten(@ui-syntax-color,10%) 20%,
-      @ui-syntax-color
-    ),
     url(atom://apocalypse-ui/assets/LKBP6t6.png);
-  background-blend-mode: soft-light;
   background-repeat: no-repeat;
   background-size: cover;
-  mix-blend-mode: screen;
   box-shadow:
     inset 0 0 10px black,
     inset 0 0 50px rgba(0,0,0,0.5);
