@@ -7,15 +7,9 @@
     "dark",
     "adaptive",
     "ui",
-<<<<<<< HEAD
     "grunge",
     "apocalyptic",
     "zombie"
-=======
-    "eerie",
-    "textures",
-    "realistic"
->>>>>>> 86bdf44b4d5df68b45618ff1f140f8409dc00d06
   ],
   "license": "MIT",
   "repository": "https://github.com/Ugotsta/apocalypse-ui",
