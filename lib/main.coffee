@@ -1,7 +1,6 @@
 root = document.documentElement
 themeName = 'apocalypse-ui'
 
-
 module.exports =
   activate: (state) ->
     atom.config.observe "#{themeName}.fontSize", (value) ->
@@ -19,6 +18,9 @@ module.exports =
     atom.config.observe "#{themeName}.stickyHeaders", (value) ->
       setStickyHeaders(value)
 
+    atom.config.observe "#{themeName}.preApocalypse", (value) ->
+      setPreApocalypse(value)
+
     # DEPRECATED: This can be removed at some point (added in Atom 1.17/1.18ish)
     # It removes `layoutMode`
     if atom.config.get("#{themeName}.layoutMode")
@@ -30,6 +32,7 @@ module.exports =
     unsetTabCloseButton()
     unsetHideDockButtons()
     unsetStickyHeaders()
+    unsetPreApocalypse()
 
 
 # Font Size -----------------------
@@ -84,3 +87,14 @@ setStickyHeaders = (stickyHeaders) ->
 
 unsetStickyHeaders = ->
   root.removeAttribute("theme-#{themeName}-sticky-headers")
+
+# Pre Apocalypse -----------------------
+
+setPreApocalypse = (preApocalypse) ->
+  if preApocalypse
+    root.setAttribute("theme-#{themeName}-preapocalypse", 'on')
+  else
+    unsetPreApocalypse()
+
+unsetPreApocalypse = ->
+  root.removeAttribute("theme-#{themeName}-preapocalypse")

@@ -21,6 +21,9 @@ Join ATOM at the end of everything. Apocalypse UI lets you code like all life on
 
 > Font used in screenshots is [Fira Code iScript](https://github.com/kencrocken/FiraCodeiScript)
 
+## Turn back the clock on the Apocalypse
+The apocalyptic mess can make it impossible to code. So the "Pre apocalypse" option in the settings lets you return ATOM to its former glory; unstained, no cracked screens. Makes it easier to code, but tougher to code like all life once depended on it.
+
 ## Features
 - Based on Atom One Dark UI so it grabs and uses colors from the selected syntax theme.
 - Made for dark syntax themes but works okay when themes have "light" keyword at the end (ex. Solarized Light).

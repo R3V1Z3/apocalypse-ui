@@ -28,9 +28,15 @@ atom-text-editor:not([mini]) {
     );
 }
 
-atom-text-editor:not([mini]) div:first-child,
+// desature editor contents just a little
+// adverse effect; line numbers end up invisible after 100+ or so lines
+// atom-text-editor:not([mini]) .scroll-view {
+//   filter: saturate(70%);
+// }
+
 atom-text-editor-minimap {
-  filter: saturate(90%);
+  margin-right: 22px;
+  filter: blur(1px);
 }
 
 atom-text-editor:not([mini])::after {
@@ -50,11 +56,6 @@ atom-text-editor:not([mini])::after {
   box-shadow:
     inset 0 0 10px black,
     inset 0 0 50px rgba(0,0,0,0.5);
-}
-
-atom-text-editor-minimap {
-  margin-right: 22px;
-  filter: blur(1px);
 }
 
 // special adjustments for text editor in GitHub pane

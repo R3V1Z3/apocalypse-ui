@@ -2,14 +2,14 @@
   "name": "apocalypse-ui",
   "theme": "ui",
   "version": "0.4.0",
-  "description": "Join Atom at the end of everything.",
+  "description": "The post apocalyptic UI. Join Atom at the end of everything.",
   "keywords": [
     "dark",
     "adaptive",
     "ui",
     "grunge",
     "apocalyptic",
-    "zombie"
+    "zombies"
   ],
   "license": "MIT",
   "repository": "https://github.com/Ugotsta/apocalypse-ui",
@@ -76,6 +76,13 @@
       "type": "boolean",
       "default": "false",
       "order": 5
+    },
+    "preApocalypse": {
+      "title": "Pre apocalypse",
+      "description": "Nice, clean ATOM computer. No cracks or stains.",
+      "type": "boolean",
+      "default": "false",
+      "order": 6
     }
   }
 }
