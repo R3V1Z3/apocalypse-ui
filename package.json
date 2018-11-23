@@ -9,7 +9,8 @@
     "ui",
     "grunge",
     "apocalyptic",
-    "zombies"
+    "zombies",
+    "textures"
   ],
   "license": "MIT",
   "repository": "https://github.com/Ugotsta/apocalypse-ui",
@@ -79,7 +80,7 @@
     },
     "preApocalypse": {
       "title": "Pre apocalypse",
-      "description": "Nice, clean ATOM computer. No cracks or stains.",
+      "description": "Undo the apocalypse. Get a nice, clean ATOM computer. No cracks or stains.",
       "type": "boolean",
       "default": "false",
       "order": 6

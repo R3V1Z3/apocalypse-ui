@@ -2,13 +2,13 @@
 
 While madness overtook the world, ATOM sat idly awaiting the opportunity to again serve its human user's needs. That opportunity never came.
 
-Many angry organic forms found their way to the lonely computer only to express the insanity of their disease. Some thrashed body parts at it. Others decorated it with lower lifeforms. One managed to crack its main display.
+Many angry organic forms found their way to the lonely computer only to unleash the insanity of their disease. Some thrashed body parts at it. Others decorated it with lower lifeforms. One managed to crack its main display.
 
 Once a pristine terminal, ATOM now sits adorned with unrecognizable shreds of former life awaiting the impending darkness.
 
 ## Enter the Apocalypse
 
-Join ATOM at the end of everything. Apocalypse UI lets you code like all life once depended on it. It's too late now, but you can still work on algorithms that maybe could have saved humanity.
+Join ATOM at the end of everything. Apocalypse UI lets you code like all life once depended on it. It's too late now, but you can still work on algorithms that could have saved humanity. Maybe.
 
 > CSS with [MsMeeves Ice Cream Candy](https://atom.io/themes/msmeeves-ice-cream-candy-syntax) theme.
 ![CSS with MsMeeves Ice Cream Candy](screenshots/apocalypse-ui-msmeeves.png)
@@ -22,7 +22,7 @@ Join ATOM at the end of everything. Apocalypse UI lets you code like all life on
 > Font used in screenshots is [Fira Code iScript](https://github.com/kencrocken/FiraCodeiScript)
 
 ## Turn back the clock on the Apocalypse
-The apocalyptic mess can make it impossible to code. So the "Pre apocalypse" option in the settings lets you return ATOM to its former glory; unstained, no cracked screens. Makes it easier to code, but tougher to code like all life once depended on it.
+The apocalyptic mess can make it impossible to code. So the "**Pre apocalypse**" option in the settings lets you return ATOM to its former glory; unstained, no cracked screens. Makes it easier to code, but tougher to code like all life once depended on it.
 
 ## Features
 - Based on Atom One Dark UI so it grabs and uses colors from the selected syntax theme.
